@@ -1,0 +1,4 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.81513652775642,-5.520532305695138,0]},"properties":{"Name":"Chusis","toptType":"CHU"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.6455913756292,-5.405673676718897,0]},"properties":{"Name":"Sechura","toptType":"CHU"}}
+]}

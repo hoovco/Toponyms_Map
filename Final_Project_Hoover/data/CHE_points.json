@@ -1,0 +1,4 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.43010327163259,-5.148127402024955,0]},"properties":{"Name":"Sapalache","toptType":"CHE"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.46666498829892,-5.183332483220465,0]},"properties":{"Name":"Laumache","toptType":"CHE"}}
+]}

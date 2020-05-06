@@ -1,0 +1,9 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.54506066390417,-5.555978893209137,0]},"properties":{"Name":"Chuspirca","toptType":"QUECHUA"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.58274207779527,-5.595176429793971,0]},"properties":{"Name":"Maray Pampa","toptType":"QUECHUA"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.82075170391467,-4.984450063428164,0]},"properties":{"Name":"Pircas","toptType":"QUECHUA"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.32445880866815,-4.919441494861798,0]},"properties":{"Name":"Tambo Grande","toptType":"QUECHUA"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.9941456891972,-4.512167017016619,0]},"properties":{"Name":"Suyo","toptType":"QUECHUA"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.42624452283165,-5.343961974717491,0]},"properties":{"Name":"Vilelapampa","toptType":"QUECHUA"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.44503678635371,-5.241765285355804,0]},"properties":{"Name":"Huancabamba","toptType":"QUECHUA"}}
+]}

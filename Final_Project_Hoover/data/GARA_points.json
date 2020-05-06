@@ -1,0 +1,6 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.01472219999998,-4.908888899999999,0]},"properties":{"Name":"Callingara","toptType":"GARA"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.53328032346819,-4.866664425693804,0]},"properties":{"Name":"Angaraya","toptType":"GARA"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.71861585518441,-5.350096714097921,0]},"properties":{"Name":"Cucungara","toptType":"GARA"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.82335581717942,-4.88629609603603,0]},"properties":{"Name":"Tangarara","toptType":"GARA"}}
+]}

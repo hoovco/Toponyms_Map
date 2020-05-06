@@ -1,0 +1,5 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.57394237366363,-4.708492503343936,0]},"properties":{"Name":"Aypate","toptType":"TE"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.92352403500944,-4.922511979484029,0]},"properties":{"Name":"Viviate","toptType":"TE"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.52787055153262,-4.739635609710219,0]},"properties":{"Name":"Somate","toptType":"TE"}}
+]}

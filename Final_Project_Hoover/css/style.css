@@ -1,0 +1,115 @@
+/* stylesheet by Corey K. S. Hoover, 2020 */
+
+#body {
+padding: 0;
+margin: 0;
+
+}
+
+html, body, #map {
+min-height: 768px;
+max-height: 768px;
+min-width: 1024px;
+max-width; 1024px;
+height: 100%;
+width: 100%;
+z-index: 1;
+
+/*trying to fix offset issues with this, however maybe if I put the menu inside the map code it may work differently?*/
+}
+
+.districtPop{
+    font-size: 18px;
+}
+.topoPopup, .sitePopup{
+    font-size: 16px;
+}
+
+.legend {
+    padding: 6px 6px;
+    background: rgba(96,88,86,0.75);
+    width: 135px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    border-radius: 4px;
+}
+
+.leaflet-popup-content {
+    color: #CFD2CD;
+    font-family: 'Zilla Slab', serif;
+}
+.leaflet-popup-tip{
+    background: #605856;
+}
+.leaflet-popup-content-wrapper{
+    border-radius: 1px;
+    background-color: #605856;
+    max-width: inherit;
+}
+
+h4 {
+text-align: center;
+color: #CFD2CD;
+font-size: 15px;
+margin: 6px 0;
+}
+
+p2 { 
+color: #CFD2CD;
+font-size: 12px;
+margin: 6px 0;
+}
+
+p { 
+margin: 6px 0;
+}
+
+.menuHeader {
+  position: relative;
+  bottom: 755px;
+  left: 10px;
+  background-color: #605856;
+  color: #CFD2CD;
+  padding: 10px;
+  width: 300px;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  font-family: 'Zilla Slab', serif;
+  z-index: 5;
+}
+/* collapsible side menu. might keep?*/ 
+.collapsible {
+  position: relative;
+  bottom: 755px;
+  left: 10px;
+  background-color: #CFD2CD;
+  color: #605856;
+  cursor: pointer;
+  padding: 9px;
+  width: 322px;
+  border-bottom: .5px;
+  text-align: left;
+  outline: none;
+  font-size: 12px;
+  z-index: 5;
+}
+
+.active, .collapsible:hover {
+  background-color: #605856;
+  color: #CFD2CD;
+}
+
+.content {
+  position: relative;
+  bottom: 755px;
+  left: 10px;
+  padding: 0 15px;
+  width: 290px;
+  max-height: 0;
+  font-family: sans-serif;
+  font-size: 11px;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  z-index: 5;
+}

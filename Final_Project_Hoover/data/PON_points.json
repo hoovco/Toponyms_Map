@@ -1,0 +1,4 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.16574629999995,-5.098088400000001,0]},"properties":{"Name":"Morropon","toptType":"PON"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.08805558188614,-5.267777800094234,0]},"properties":{"Name":"Tongo","toptType":"PON"}}
+]}

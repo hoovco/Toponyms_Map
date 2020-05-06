@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toponnyms in Piura, Peru</title>
+<link href="css/leaflet.css" type="text/css" rel=stylesheet>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+    
+</head>
+<body>
+    
+<div id="map"></div>
+
+<div class="menuHeader">Toponyms and Archaeological sites in Piura, Peru</div>
+<button class="collapsible">Using this map</button>
+<div class="content">
+  <p>Use the dropdown menus to access information about toponyms. Use the switches located in "Select Toponyms" to toggle toponym types. Use the drop down located at the top right corner to switch base maps, and use the dropdown located in the bottom left corner to toggle district boundaries and archaeological site visibility.</p>
+</div>
+<button class="collapsible">What is a Toponym?</button>
+<div class="content">
+  <p>Toponyms are the reason places have names. In Peru, the Toponyms give a clue as to the history of the area and the people inhabiting it. We can see remnants of langugaes such as Quechua, Chimuan, Muchik, and Sec in many place names.</p>
+</div>
+<button class="collapsible">Toponym Types</button>
+<div class="content">
+  <p>Toponyms with the types of CHE, CHU and SEC generally are attributed to the Tallán around coastal Piura.</p>
+  <p>Toponyms associated with CAN, PON, TE and GARA may possibly be associated with more northern cultures, especially around the Loja, Ecuador area.</p>
+  <p>Toponyms that are labeled Quechua are associated with the Incan expansion into the area. Terms like Suyo (roughly means state or nation), Bamba/ Pampa is a place derterminer, and other Quechua words such as Pirqa (wall) appear in these toponyms.</p>
+</div>
+<button class="collapsible">Select Toponyms</button>
+<div class="content">
+    <p>-CAN Toponyms: <input type="checkbox" id="canCheck" class="check" unchecked></p>
+    <p>-CAT Toponyms: <input type="checkbox" id="catCheck" class="check" unchecked></p>
+    <p>Quechua Toponyms: <input type="checkbox" id="quechuaCheck" class="check" unchecked></p>
+    <p>-CHE Toponyms: <input type="checkbox" id="cheCheck" class="check" unchecked></p>
+    <p>-CHU Toponyms: <input type="checkbox" id="chuCheck" class="check" unchecked></p>
+    <p>-GARA Toponyms: <input type="checkbox" id="garaCheck" class="check" unchecked></p>
+    <p>-PON Toponyms: <input type="checkbox" id="ponCheck" class="check" unchecked></p>
+    <p>-TE Toponyms: <input type="checkbox" id="teCheck" class="check" unchecked></p>
+</div>
+<button class="collapsible">Select Sites</button>
+<div class="content">
+  <p>UNDER CONSTRUCTION. For now, use the layer button in the lower left hand part of the map to toggle the archaeological sites on and off. Click on a site to see the site name.</p>
+</div>
+<button class="collapsible">Sources and further reading</button>
+<div class="content">
+    <p><b>Sources cited:</b><p><b>Hocquenghem, Anne-Marie.</b> Para Vencer La Muerte: Piura y Tumbes: raíces En El Bosque Seco y En La Selva Alta, Horizontes En El Pacífico y En La Amazonia. París, France: CNRS-PICS, 1998.</p><p><b>Adelaar, Willem F. H., and Pieter Muysken.</b> The Languages of the Andes. Cambridge: Cambridge Univ. Press, 2010.</p>
+</div>  
+    
+<!--Scrippppps-->
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">   
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
+<script src="js/leaflet.js"></script>
+<script src="js/main.js"></script>
+<script src="data/Sites_Points_GEO.json" type="text/javascript"></script>
+<script src="data/CAN_points.json" type="text/javascript"></script>
+<script src="data/CAT_points.json" type="text/javascript"></script>
+<script src="data/CHE_points.json" type="text/javascript"></script>
+<script src="data/CHU_points.json" type="text/javascript"></script>
+<script src="data/GARA_points.json" type="text/javascript"></script>
+<script src="data/PON_points.json" type="text/javascript"></script>
+<script src="data/QUECHUA_points.json" type="text/javascript"></script>
+<script src="data/TE_points.json" type="text/javascript"></script>
+
+</body>
+</html>

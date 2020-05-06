@@ -1,0 +1,5 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.57582126211967,-4.728095199775719,0]},"properties":{"Name":"Chocan","toptType":"CAN"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-80.1596064560039,-5.093623931488637,0]},"properties":{"Name":"Chulucanas","toptType":"CAN"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.58333300000001,-5.099999999999997,0]},"properties":{"Name":"Chulucanas2","toptType":"CAN"}}
+]}
